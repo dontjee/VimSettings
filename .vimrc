@@ -54,4 +54,4 @@ set expandtab
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
-colorscheme vividchalk
+colorscheme ir_black

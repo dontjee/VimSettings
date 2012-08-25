@@ -28,9 +28,6 @@ set autoindent
 set smarttab
 set expandtab
 
-set list "show whitespace
-set listchars=tab:>.,trail:.,extends:#,nbsp:. " use # char to mark lines that go off screen
-
 set incsearch " incremental search
 
 " Visual

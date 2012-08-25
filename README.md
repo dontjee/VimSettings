@@ -1,7 +1,5 @@
 copy all files into your home directory
 
-Most of my ideas came from here: http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
-
 ##### Setup info
 Run the following after cloning VimFiles to link files, making them visible to vim 
 

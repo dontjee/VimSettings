@@ -37,4 +37,8 @@ set incsearch " incremental search
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
+"Command T
+nnoremap <silent> ,f :CommandT<CR>
+nnoremap <silent> ,, :CommandTBuffer<CR>
+
 colorscheme ir_black

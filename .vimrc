@@ -38,4 +38,7 @@ set mat=5  " Bracket blinking.
 noremap ,f <Esc>:CommandT<CR>
 noremap ,, <Esc>:CommandTBuffer<CR>
 
+"Use jj to escape insert mode
+imap jj <Esc>
+
 colorscheme ir_black

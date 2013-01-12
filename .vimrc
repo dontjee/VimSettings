@@ -10,6 +10,8 @@ set nocompatible  " We don't want vi compatibility.
 set noswapfile
 set nobackup
 
+syntax on
+
 set hidden " hides buffers instead of closing which means I can switch without needing to save
 set cf  " Enable error files & error jumping.
 set clipboard+=unnamed  " Yanks go on clipboard instead.

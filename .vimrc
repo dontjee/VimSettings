@@ -36,9 +36,10 @@ set incsearch " incremental search
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
 
-"Command T
-noremap ,f <Esc>:CommandT<CR>
-noremap ,, <Esc>:CommandTBuffer<CR>
+"CtrlP
+noremap ,f <Esc>:CtrlP<CR>
+noremap ,, <Esc>:CtrlPBuffer<CR>
+let g:ctrlp_show_hidden = 1
 
 "Use jj to escape insert mode
 imap jj <Esc>

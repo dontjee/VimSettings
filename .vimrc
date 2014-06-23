@@ -10,6 +10,8 @@ set nocompatible  " We don't want vi compatibility.
 set noswapfile
 set nobackup
 
+set background=dark
+
 syntax on
 
 set hidden " hides buffers instead of closing which means I can switch without needing to save
@@ -45,4 +47,4 @@ let g:ctrlp_show_hidden = 1
 "Use jj to escape insert mode
 imap jj <Esc>
 
-colorscheme ir_black
+colorscheme wombat

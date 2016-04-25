@@ -4,13 +4,14 @@ call pathogen#helptags()
 
 filetype plugin indent on
 " end pathogen
+" Git
+autocmd Filetype gitcommit setlocal spell textwidth=72
+" end Git
 
 set nocompatible  " We don't want vi compatibility.
  
 set noswapfile
 set nobackup
-
-syntax on
 
 set hidden " hides buffers instead of closing which means I can switch without needing to save
 set cf  " Enable error files & error jumping.
@@ -46,11 +47,8 @@ let g:ctrlp_show_hidden = 1
 imap jj <Esc>
 
 set t_Co=256
-set term=ansi
 set background=dark
+
+syntax on
 
 colorscheme wombat
-
-set t_Co=256
-set term=ansi
-set background=dark
